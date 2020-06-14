@@ -1,0 +1,40 @@
+#mydiv {
+    position: absolute;
+    top: 80px;
+    left: 10px;
+    z-index: 99997;
+    background-color: #ffffff98;
+    border: 1px solid #c4c4c4;
+    border-radius: 5px;
+    padding: 7px
+  }
+  
+  #mydivheader {
+    padding: 10px;
+    border-bottom: 1px solid rgba(250, 0, 175, 0.664);
+    cursor: move;
+    z-index: 10;
+    text-align: center;
+  }
+
+  #form{
+    padding-top: 10px;
+    text-align: right;
+  }
+
+#form-field{
+    width: 250px;
+ }
+
+#polytext{
+    font-size: smaller;
+ }
+
+#alert{
+  z-index: 99996;
+  position: absolute;
+  left:35%
+}
+
+    
+
