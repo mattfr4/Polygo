@@ -39,17 +39,3 @@ def polygo():
         return mapper.create_map(*calc.create_geojson(polygon_input), polygon_input, address_input, radius_input)
 
     return render_template("basemap.html")
-
-@app.route("/guru")
-def guruapp():
-
-    letters = request.args.get("letters")
-
-    if letters:
-        results = g.search(letters)
-
-        return render_template("homes.html", results = results)
-
-    return render_template("home.html")
-
-
